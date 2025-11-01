@@ -162,7 +162,7 @@ h2 {
 
 .slider-container {
   overflow: hidden;
-  width: 100%;
+  max-width: 100%;
 }
 
 .slider {
