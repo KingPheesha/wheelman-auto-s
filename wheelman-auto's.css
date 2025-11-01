@@ -169,6 +169,7 @@ h2 {
   display: flex;
   width: 600%;
   animation: slide 18s infinite linear;
+  overflow: hidden;
 }
 
 .slide {
@@ -347,6 +348,7 @@ h2 {
 
   .slider {
     width: 300%;
+    overflow: hidden;
   }
 
   .slide {
@@ -409,4 +411,5 @@ h2 {
   .services {
     border-radius: 20px;
 }
+
 }
