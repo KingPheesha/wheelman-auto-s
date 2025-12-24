@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: Tahoma, Geneva, Verdan,a, sans-serif; 
+  font-family: Tahoma, Geneva, Verdana, sans-serif; 
   line-height: 1.6;
   color: #333;
 }
@@ -14,8 +14,8 @@ body {
   position: fixed;
   background-color: #356267;
   top: 0;
-  left: 0; right: 0;
-  width: 100vw;
+  left: 0; 
+  right: 0;
   box-shadow: 0 2px 10px #67aeb5;
   z-index: 1000;
 }
@@ -38,9 +38,7 @@ body {
 
 .nav-bar-logo {
   height: 50px;
-  display: flex; 
   border-radius: 25px;
-  align-content: center;
   align-self: center;
 }
 
@@ -108,8 +106,8 @@ body {
   justify-content: right;
   text-align: center;
   color: silver;
-   border-bottom-left-radius: 10%;
-   margin: 10px 0 10px 0;
+  border-bottom-left-radius: 10%;
+  margin: 10px 0;
 }
 
 .hero-content h1 {
@@ -160,16 +158,15 @@ h2 {
   color: #333;
 }
 
-.slider-container {
+.testimonials .slider-container {
   overflow: hidden;
-  max-width: 100%;
+  width: 100%;
 }
 
 .slider {
   display: flex;
   width: 600%;
   animation: slide 18s infinite linear;
-  overflow: hidden;
 }
 
 .slide {
@@ -181,7 +178,6 @@ h2 {
 
 .slide i {
   font-size: 3rem;
-  color: #c2f2f2;
   margin-bottom: 20px;
   color: #666;
 }
@@ -205,7 +201,7 @@ h2 {
   50% { transform: translateX(-50); }
   66.666% { transform: translateX(-66.666%); }
   83.333% { transform: translateX(-83.333); }
-  100% { transform: translateX(0);}
+  100% { transform: translateX(0); }
 }
 
 .services {
@@ -348,7 +344,6 @@ h2 {
 
   .slider {
     width: 300%;
-    overflow: hidden;
   }
 
   .slide {
@@ -408,8 +403,15 @@ h2 {
     font-size: 1rem;
   }
 
+  .slider {
+    width: 100%;
+  }
+
+  .slide {
+    min-width: 100%;
+  }
+
   .services {
     border-radius: 20px;
 }
-
 }
